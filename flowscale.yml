@@ -137,9 +137,9 @@ workflows:
     description: ''
     file: relighting/basic_relighting.json
   - id: jmfwszgl5up
-    name: product_photography_improved_(3)_api.json
-    file: inpainting_and_outpainting/product_photography_improved_(3)_api.json
-    version: 1
+    name: product_photography_improved_forked_api.json
+    file: inpainting_and_outpainting/product_photography_improved_forked_api.json
+    version: 2
     description: ''
     inputs:
       - path: 64.inputs.filename_prefix
@@ -214,6 +214,6 @@ normal_workflows:
     file: inpainting_and_outpainting/fashion_photography_workflow.json
     version: 1
   - id: hf14hemwlkk
-    name: product_photography_improved_(3).json
-    file: inpainting_and_outpainting/product_photography_improved_(3).json
-    version: 1
+    name: product_photography_improved_forked.json
+    file: inpainting_and_outpainting/product_photography_improved_forked.json
+    version: 2
