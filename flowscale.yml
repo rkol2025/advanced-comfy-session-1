@@ -181,3 +181,7 @@ normal_workflows:
     name: fashion_photography_workflow.json
     file: inpainting_and_outpainting/fashion_photography_workflow.json
     version: 1
+  - id: hf14hemwlkk
+    name: product_photography_improved_(3).json
+    file: inpainting_and_outpainting/product_photography_improved_(3).json
+    version: 0
