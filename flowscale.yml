@@ -136,6 +136,38 @@ workflows:
     name: basic_relighting.json
     description: ''
     file: relighting/basic_relighting.json
+  - id: jmfwszgl5up
+    name: product_photography_improved_(3)_api.json
+    file: inpainting_and_outpainting/product_photography_improved_(3)_api.json
+    version: 1
+    description: ''
+    inputs:
+      - path: 64.inputs.filename_prefix
+        label: filename_prefix
+        parameter_name: filename_prefix_40564
+        type: string
+        demo_type: text
+        category: output
+        randomize: true
+      - path: 65.inputs.image
+        label: Input Product Image
+        parameter_name: image_22316
+        type: string
+        demo_type: image
+        category: input
+        randomize: false
+      - path: 66.inputs.default_value
+        label: Background Prompt
+        parameter_name: default_value_36864
+        type: string
+        demo_type: text
+        category: input
+        randomize: false
+    outputs:
+      - label: Output Image
+        demo_type: image
+    skip_preprocess: true
+    advancedConfig: false
 normal_workflows:
   - id: dt1vvo7wj2u
     name: basic_inpainting.json
@@ -184,4 +216,4 @@ normal_workflows:
   - id: hf14hemwlkk
     name: product_photography_improved_(3).json
     file: inpainting_and_outpainting/product_photography_improved_(3).json
-    version: 0
+    version: 1
