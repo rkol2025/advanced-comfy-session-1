@@ -139,7 +139,7 @@ workflows:
   - id: jmfwszgl5up
     name: product_photography_improved_forked_api.json
     file: inpainting_and_outpainting/product_photography_improved_forked_api.json
-    version: 3
+    version: 4
     description: ''
     inputs:
       - path: 64.inputs.filename_prefix
@@ -216,4 +216,4 @@ normal_workflows:
   - id: hf14hemwlkk
     name: product_photography_improved_forked.json
     file: inpainting_and_outpainting/product_photography_improved_forked.json
-    version: 3
+    version: 4
