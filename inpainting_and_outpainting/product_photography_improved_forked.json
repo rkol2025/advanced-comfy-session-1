@@ -128,7 +128,7 @@
                 "aux_id": "storyicon/comfyui_segment_anything"
             },
             "widgets_values": [
-                "person",
+                "object",
                 0.3
             ]
         },
@@ -449,7 +449,7 @@
                 "Node name for S&R": "KSampler"
             },
             "widgets_values": [
-                310097967766673,
+                814932358881597,
                 "randomize",
                 20,
                 8,
@@ -639,7 +639,7 @@
                 1024,
                 1024,
                 "nearest",
-                "keep proportion",
+                "pad",
                 "always",
                 0
             ]
@@ -1105,7 +1105,7 @@
                 "Node name for S&R": "KSampler"
             },
             "widgets_values": [
-                88961851894478,
+                911385067037249,
                 "randomize",
                 40,
                 2,
@@ -2196,7 +2196,7 @@
                 "Node name for S&R": "FSLoadImage"
             },
             "widgets_values": [
-                "prompthero-prompt-1f7c85fa6cc.webp",
+                "prompthero-prompt.png",
                 "image",
                 "Input Product Image"
             ]
@@ -2232,7 +2232,7 @@
                 "Node name for S&R": "FSLoadText"
             },
             "widgets_values": [
-                " The background is a living room with sun shining through a window",
+                "",
                 "Background Prompt"
             ]
         }
@@ -2990,10 +2990,10 @@
     "config": {},
     "extra": {
         "ds": {
-            "scale": 1.2100000000000002,
+            "scale": 0.8264462809917361,
             "offset": [
-                -809.4375906926418,
-                -1157.4382186231376
+                651.8216204691051,
+                -1059.5463316127177
             ]
         }
     },
